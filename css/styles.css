@@ -1,0 +1,30 @@
+@charset "UTF-8";
+#hero {
+	background-image: url(../images/OldMajorHeader.png);
+	background-position: 50% 20%;
+	background-size: auto 100%;
+}
+header {
+	background-color: #A0292B;
+}
+.banner {
+	background-image: url(../images/OldMajor.jpg);
+}
+#about {
+	background-color: #050505;
+}
+#stats {
+	background-color: #AF4243;
+}
+body {
+	background-color: #050100;
+}
+.footer_column {
+	background-color: #717070;
+}
+.cards {
+	background-color: #717070;
+}
+.footer_column p {
+	background-color: #ffffff00;
+}
