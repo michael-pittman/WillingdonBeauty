@@ -76,6 +76,7 @@ ul li:hover a {
 	background-color: #B3B3B3;
 	padding-top: 150px;
 	padding-bottom: 316px;
+	background-image: url(../images/OldMajorBanner.jpg);
 }
 .light {
 	font-weight: bold;
@@ -148,7 +149,7 @@ ul li:hover a {
 /* Parallax Section */
 .banner {
 	background-color: #2D9AB7;
-	background-image: url(../images/OldMajor.jpg);
+	background-image: url(../images/OldMajorTitle.jpg);
 	height: 400px;
 	background-attachment: fixed;
 	background-size: cover;
