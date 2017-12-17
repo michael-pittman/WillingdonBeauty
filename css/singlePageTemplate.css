@@ -264,6 +264,9 @@ footer {
 
 /* Mobile */
 @media (max-width: 320px) {
+.hidden-sm {
+	visibility: hidden;	
+}
 .logo {
 	width: 100%;
 	text-align: center;
@@ -271,6 +274,7 @@ footer {
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
+	display: none;
 }
 .container header nav {
 	margin-top: 0px;
@@ -279,7 +283,7 @@ footer {
 	margin-left: 0px;
 	width: 100%;
 	float: none;
-	display: none;
+	visibility: hidden;
 }
 header nav ul {
 }
@@ -346,10 +350,20 @@ nav ul li {
 	line-height: 22px;
 	text-align: center;
 }
+#about {
+	margin-top: -50px;
 }
 
+}
 /* Small Tablets */
 @media (min-width: 321px)and (max-width: 767px) {
+#about {
+	margin-top: -50px;
+}
+	
+.hidden-sm {
+	visibility: hidden;	
+}
 .logo {
 	width: 100%;
 	text-align: center;
@@ -357,7 +371,7 @@ nav ul li {
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
-/*	color: #043745;*/
+	/*	color: #043745;*/
 }
 .container header nav {
 	margin-top: 0px;
@@ -367,7 +381,6 @@ nav ul li {
 	width: 100%;
 	float: none;
 	overflow: auto;
-	display: table-row-group;
 	background: #dd9992;
 }
 header nav ul {
@@ -384,7 +397,7 @@ nav ul li {
 	text-align: center;
 	padding-top: 8px;
 	padding-bottom: 8px;
-	display: inline-table;
+	display: none;
 }
 .text_column {
 	width: 100%;
