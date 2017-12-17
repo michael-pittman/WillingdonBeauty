@@ -343,8 +343,8 @@ nav ul li {
 	text-align: center;
 }
 .banner {
-	background-color: #6c403e;
-	background-image: none;
+	background-color: #D48F88;
+	background-image: url(../images/OldMajorTitleExtraSmalScreen.jpg);
 }
 .tagline {
 	margin-top: 20px;
@@ -358,7 +358,6 @@ nav ul li {
 }
 #about {
 	margin-top: -50px;
-	background-image: url(../images/OldMajorTitleExtraSmalScreen.jpg);
 }
 #hero {
 }
@@ -473,6 +472,7 @@ nav ul li {
 .banner {
 	padding-left: 20px;
 	padding-right: 20px;
+	background-image: url(../images/OldMajorTitleSmalScreen.jpg);
 }
 .footer_column {
 	width: 100%;
