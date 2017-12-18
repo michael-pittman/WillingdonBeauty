@@ -265,6 +265,9 @@ footer {
 footer .footer_column p {
 	text-align: center;
 }
+.stats {
+	color: #2E1416;
+}
 
 /* Mobile */
 @media (max-width: 320px) {
@@ -479,6 +482,7 @@ nav ul li {
 }
 #hero {
 	background-image: url(../images/OldMajorTitleSmalScreen.jpg);
+	margin-bottom: -50px;
 }
 }
 
