@@ -271,8 +271,6 @@ footer .footer_column p {
 
 /* Mobile */
 @media (max-width: 320px) {
-
-
 .hidden-sm {
 	visibility: hidden;	
 }
@@ -361,9 +359,6 @@ nav ul li {
 }
 #about {
 	margin-top: -50px;
-	background-image: url(../images/OldMajorTitleExtraSmalScreen.jpg);
-}
-#hero {
 }
 
 }
@@ -480,10 +475,13 @@ nav ul li {
 .footer_column {
 	width: 100%;
 }
+<<<<<<< HEAD
 #hero {
 	background-image: url(../images/OldMajorTitleSmalScreen.jpg);
 	margin-bottom: -50px;
 }
+=======
+>>>>>>> parent of 50af6c4... hero banner mobile querry image edit
 }
 
 /* Small Desktops */
